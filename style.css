@@ -1,0 +1,240 @@
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	header{
+	    background: rgba(0, 0, 0, .9);
+	    background: 
+	    linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+	    url(header.jpg);
+	  background-size: cover;
+	  height: 100%;
+	  background-attachment: fixed;
+	}
+	header ul{
+		width: 100%;
+		list-style: none;
+		background-color: rgba(255, 255, 255, 0.1);
+		height: 10%;
+		position: relative;
+	}
+	header p{
+		margin-left: 1.2%;
+		margin-top: 1.1%;
+		float: left;
+		color: #ffffff;
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+	header img{
+		margin-left: 8%;
+		margin-top: 1.3%;
+		float: left;
+	}
+	header ul li{
+		float: right;
+		margin-top:1.5%;
+		margin-right: 3%;
+		color: #ffffff;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	header ul li:hover{
+		color: #E6E6E6;
+	}
+	header h2{
+		text-align: center;
+		margin-top: 14%;
+		font-size: 3em;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+	header h3{
+		text-align: center;
+		margin-top:2%;
+		font-size: 1.5em;
+		color: #ffffff;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	header h4{
+		text-align: center;
+		font-size: 17px;
+		margin-top:5%;
+		background-color: #FFFF00;
+		padding: 10px;
+		margin-left: 40%;
+		border-radius: 5px;
+		width:15%;
+	}
+	.handle{
+		color: #ffffff;
+		display: none;
+	}
+	@media screen and (max-width: 786px) {
+	   header li{
+	   		width:90%;
+	   		display: none;
+	   }
+	   header img{
+		margin-top: 2.7%;
+	}
+	   header p{
+	   	margin-top: 2%;
+	   }
+	   .handle{
+	   	display: inline-block;
+	   	float: right;
+	   	margin-top: -8.5%;
+	   	margin-right: 10px;
+	   }
+	   header h4{
+	   		margin-top:15%;
+	   		width:25%;
+	   		margin-left: 35%;
+	   }
+
+	}
+	#box{
+		width: 100%;
+		background: url(box.png);
+	}
+	#trends{
+		width:70%;
+		background-color: #ffffff;
+		text-align: center;
+		font-weight: lighter;
+		height: 50%;
+		background: url(box.png);
+	}
+	.col{
+		margin-top: 4%;
+		width:25%;
+		float: left;
+		border-radius: 100px;
+		box-shadow: 3px 3px 1px 1px #888888;
+
+	}
+	.col p{
+		text-transform: uppercase;
+		text-shadow: 1px 1px #888888;
+		margin:17px; 
+	}
+	@media screen and (max-width: 786px) {
+		#trends{
+			width: 100%;
+			height: 85%;
+		}
+		#trends img{
+			width: 20%;
+		}
+		.col{
+			width: 40%;
+			margin-left: 7%;
+			border-radius: 100px;
+			box-shadow: 1px 1px 1px 1px #888888;
+
+		}
+		.col p{
+			margin:5px;
+		}
+	}
+	#features{
+
+		background: rgba(0, 0, 0, .9);
+	    background: 
+	    linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+	    url(features.jpg);
+	  background-size: cover;
+	  height: 65%;
+	  background-attachment: fixed;
+	}
+	#features h1{
+		color: #ffffff;
+		font-size: 2em;	
+	}
+	#features p{
+		color: #ffffff;
+	}
+	.featurescontent{
+		margin-top: 0%;
+		margin-left: 15%;
+		color: #ffffff;
+		width: 35%;
+		float: left;
+		font-size: 17px;
+		line-height: 250%;
+	} 
+	.featurescontent img{
+		height: 1.8%;
+	}
+	@media screen and (max-width: 786px){
+		#features{
+			height: 100%;
+		}
+		.featurescontent{
+			width: 100%;
+			line-height: 200%;
+		}
+	}
+	#profdesign{
+		width: 100%;
+		height: 65%;
+		background-color: #ffffff;
+	}
+	#profdesigndiv{
+		width: 50%;
+		float: left;
+	}
+	#profdesigndiv img{
+		width: 70%;
+		height: 80%;
+	}
+	#profdesigndiv h1{
+			font-family: "Lucida" Grande, sans-serif;
+			font-weight: 500;
+			margin-left: 15%;
+	}
+	#profdesigndiv p{
+		color: rgba(0,0,0,0.87);
+		line-height: 2rem;
+		margin-left: 15%;
+	}
+	#profdesigndiv h2{
+		color: #673ab7;
+		font-weight: 500;
+		line-height: 3rem;
+		margin-left: 15%;
+	}
+	@media screen and (max-width: 786px){
+		#profdesign{
+			height: 200%;
+		}
+		#profdesigndiv{
+			width: 100%;
+		}
+		#profdesigndiv h1{
+			font-size: 25px;
+		}
+		#profdesigndiv p{
+			font-size: 15px;
+		}
+		#profdesigndiv h2{
+			font-size: 20px;
+			line-height: 2rem;
+		}
+		#profdesigndiv img{
+		width: 70%;
+		height: 40%;
+		margin-left: 15%;
+	}
+	}
+	footer{
+		width: 100%;
+		background-color: rgba(0,0,0,0.87);
+	}
+	
